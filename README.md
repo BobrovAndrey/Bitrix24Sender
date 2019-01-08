@@ -29,7 +29,7 @@ discordWebhookUrl can be set as [environment variable](https://en.wikipedia.org/
 "payload" can be formed with [Bitrix24Parser](https://github.com/BobrovAndrey/Bitrix24Parser)
 
 
-! "post" will send "payload" as JSON string
+! "post" will send "payload" as JSON string  
 ! "header" are optional param and sets to 'Content-Type': 'application/x-www-form-urlencoded' by default
 ## License
 
