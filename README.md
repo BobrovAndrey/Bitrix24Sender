@@ -1,5 +1,5 @@
 # Bitrix24Sender
-Birtri24Sender -  send message to Discord chat.(Will return PROMISE to you) 
+Birtri24Sender -  send message to Discord chat.(Will return PROMISE to you)  
 Require [got](https://www.npmjs.com/package/got) dependency
  
 
