@@ -1,7 +1,6 @@
 # Bitrix24Sender
-Birtri24Sender -  send message to Discord chat.  
-Will return PROMISE to you  
-require [got](https://www.npmjs.com/package/got) dependency
+Birtri24Sender -  send message to Discord chat.(Will return PROMISE to you) 
+Require [got](https://www.npmjs.com/package/got) dependency
  
 
 ## How to use
@@ -11,7 +10,7 @@ require [got](https://www.npmjs.com/package/got) dependency
 3. Select on of available methods from "sender" object and call it with discord webhook URL and payload (header param are optional)
 
 #### Discord webhook usage example
-``
+```
 const { post } = require('../bitrix24Sender')
 
 let discordWebhookUrl
@@ -19,7 +18,7 @@ let payload
 await post(discordWebhookUrl, payload)
     .then(responce => console.log(responce))
     .catch(err => console.log(err))
-``
+```
 
 ## "post" method
 Post method are [asynchronous function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function), that will return promise to you and send up your payload to specified webhook URL.
