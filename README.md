@@ -21,7 +21,7 @@ await post(discordWebhookUrl, payload)
 ``
 
 ## "post" method
-Post method are [asynchronous function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function), that will return promise to you and send up your payload.  
+Post method are [asynchronous function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function), that will return promise to you and send up your payload to specified webhook URL.
 discordWebhookUrl can be set as [environment variable](https://en.wikipedia.org/wiki/Environment_variable)
 
 "discordWebhookUrl" param must contain a [webhook URL from Discord](https://discordapp.com/developers/docs/resources/webhook)
@@ -29,13 +29,8 @@ discordWebhookUrl can be set as [environment variable](https://en.wikipedia.org/
 "payload" can be formed with [Bitrix24Parser](https://github.com/BobrovAndrey/Bitrix24Parser)
 
 
-
-
-
-
-
-
-
+! "post" will send "payload" as JSON string
+! "header" are optional param and sets to 'Content-Type': 'application/x-www-form-urlencoded' by default
 ## License
 
 [MIT](LICENSE)
