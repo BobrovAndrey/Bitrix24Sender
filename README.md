@@ -1,7 +1,8 @@
 # Bitrix24Sender
 Birtri24Sender -  send message to Discord chat.  
 Will return PROMISE to you  
-Work with "got" https://www.npmjs.com/package/got  
+require [got](https://www.npmjs.com/package/got) dependencie
+ 
 
 ## How to use
 1. Clone or download
